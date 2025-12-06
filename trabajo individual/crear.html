@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav>
+        <div class="mani">
+                <a href="index.html">HOME</a>
+                <a href="#">CREAR TAREAS</a>
+                <a href="listado.html">LISTAR TAREAS</a>
+                <a href="multimedia.html">MULTIMEDIA</a>
+            </div>
+    </nav>
+</header>
+<body>
+    <section class="subtitulo_crear">
+        <h1 class=" titulo_crear">¡Bienvenido/a a la Creación de Tareas!</h1>
+        <p class=" parrafo_1" >Este es tu espacio para <b> definir tus próximos objetivos</b> de manera clara y efectiva. Recuerda proporcionar un <b>título conciso,</b> una <b>descripción detallada</b> de lo que se debe hacer, y establecer la <b>fecha de entrega</b> y las prioridades necesarias. Una tarea bien definida es el primer paso para una gestión exitosa de tu tiempo y proyectos. ¡Empieza ahora a convertir tus ideas en acciones concretas!</p>
+    </section>
+
+    <form class="form_clase">
+        <h2 class="h2_form">crea tu tarea</h2>
+        <div >
+            <label for="informacion"><h3>1. que quieres hacer: </h3></label>
+            <textarea name="informacion" id="informacion" rows="4" cols="24" placeholder=" ingresa aqui." required></textarea>
+        </div>
+        <div>
+            <label for="prioridad"></label><h3> 2. Prioridad: </h3> 
+            <input type="text" id="informacion" name="informacion"
+            placeholder="ingresa aqui" required>
+        </div>
+
+        <div>
+            <label for="fecha"></label><h3> 3. Fecha de vencimiento de la tarea: </h3>
+            <input type="date" id="fecha" name="fecha"
+            placeholder="ingresa aqui" required>
+        </div>
+        <div>
+            <label for="estado"></label><h3> 4. Estado actual: </h3>
+            <input type="text" id="estado" name="estado"
+            placeholder="ingresa aqui" required>
+        </div>
+        <div>
+            <label for="descripción"></label><h3> 5. Descripcion: </h3>
+            <textarea placeholder=" escribe aqui la descripción" rows="4" ></textarea>
+        </div>
+        <div>
+        
+        <br><br><input type="button" value="enviar" >
+        
+        </div>
+        
+
+    </form>
+
+    <!-- FOOTER -->
+    <footer class="footer-main">
+        <div class="footer-content">
+            <h3>CRUDScope - HTML MediaPanel</h3>
+            <p>&copy; 2025 Todos los derechos reservados.</p>
+            
+            <address>
+                <strong>Autor y Contacto:</strong><br>
+                GitHub: <a href="https://github.com/estiven-piedrahita" target="_blank">@estiven-piedrahita</a><br>
+                Email: <a href="mailto:contacto@crudscope.com">contacto@crudscope.com</a><br>
+                Proyecto: <a href="https://github.com/estiven-piedrahita/crudscope-html-mediapanel" target="_blank">crudscope-html-mediapanel</a>
+            </address>
+
+            <p class="footer-date">Última actualización: <time datetime="2025-12-06">6 de Diciembre de 2025</time></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

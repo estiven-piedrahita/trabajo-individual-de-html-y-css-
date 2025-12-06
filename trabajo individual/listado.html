@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <nav>
+            <div class="mani">
+                <a href="index.html">HOME</a>
+                <a href="crear.html">CREAR TAREAS</a>
+                <a href="#">LISTAR TAREAS</a>
+                <a href="multimedia.html">MULTIMEDIA</a>
+            </div>
+        </nav>
+    </header>
+<body>
+    <table  cellpadding="10" cellspacing="0">
+        <table class="listado">
+        <thead>
+            <tr>
+                <th>Lo que vas a hacer</th>
+                <th>Prioridad</th>
+                <th>Fecha de Vencimiento</th>
+                <th>Estado Actual</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Llamar a Cliente A para Cierre</td>
+                <td>Alta</td>
+                <td>Mañana, 10:00 AM</td>
+                <td>En Progreso</td>
+                <td>Preparar contrato, revisar los términos de entrega y tener lista la presentación final de beneficios.</td>
+            </tr>
+            <tr>
+                <td>Diseño de Landing Page</td>
+                <td>Media</td>
+                <td>Jueves, 5:00 PM</td>
+                <td>Pendiente</td>
+                <td>Crear tres propuestas de diseño basadas en el wireframe aprobado. Recolectar imágenes de alta resolución.</td>
+            </tr>
+            <tr>
+                <td>Capacitación de Software Nuevo</td>
+                <td>Baja</td>
+                <td>Viernes, 3:00 PM</td>
+                <td>Pendiente</td>
+                <td>Completar los módulos 1 y 2 del curso de capacitación en línea. Tomar notas de las funciones clave.</td>
+            </tr>
+            <tr>
+                <td>Revisión de Presupuesto Q4</td>
+                <td>Alta</td>
+                <td>Pasado Mañana, 12:00 PM</td>
+                <td>En Progreso</td>
+                <td>Comparar gastos reales con el presupuesto proyectado. Identificar desviaciones superiores al 10% y justificar las causas.</td>
+            </tr>
+        </tbody>
+    </table>
+    <section class=" listado_final">
+        <div> 
+            <label for="actualizar"> haz click en actualizar, para modificar una tarea. </label>
+            <br><br><input type="button" value="actualizar" name="actualizar" id="actualizar">
+        </div>
+        <br><div>
+            <label for="eliminar"> haz click  en delete, para eliminar una tarea. </label>
+            <br><br><input type="button" value="eliminar">
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-main">
+        <div class="footer-content">
+            <h3>CRUDScope - HTML MediaPanel</h3>
+            <p>&copy; 2025 Todos los derechos reservados.</p>
+            
+            <address>
+                <strong>Autor y Contacto:</strong><br>
+                GitHub: <a href="https://github.com/estiven-piedrahita" target="_blank">@estiven-piedrahita</a><br>
+                Email: <a href="mailto:contacto@crudscope.com">contacto@crudscope.com</a><br>
+                Proyecto: <a href="https://github.com/estiven-piedrahita/crudscope-html-mediapanel" target="_blank">crudscope-html-mediapanel</a>
+            </address>
+
+            <p class="footer-date">Última actualización: <time datetime="2025-12-06">6 de Diciembre de 2025</time></p>
+        </div>
+    </footer>
+</body>
+</html>

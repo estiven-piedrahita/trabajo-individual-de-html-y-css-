@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(245, 213, 180);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 3rem;
+    color: rgb(0, 0, 0);      
+    background-size: cover;          
+    background-position: center;    
+    background-repeat: no-repeat;     
+    overflow-x: hidden;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-style: italic;
+
+}
+
+nav{
+    width: 100%;
+    height: 5vhpx ;
+    padding: 35px 0;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin-bottom: 35px;
+}
+.mani{
+    justify-content: space-around;
+    display: flex;
+    justify-items: center;
+    gap: 4.3rem;
+}
+nav a {
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 2px;
+    border-bottom: 0.8px solid white;
+    /* box-shadow:  0 5px 4px; */
+    border: 1px solid black;
+    padding: 5px;
+}
+nav a:hover {
+    box-shadow:  0 5px 4px;
+    transition: 1s ease;
+}
+
+.bienvenida{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.subtitul{
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imagen img{
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    margin: 20px; 
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.h4_class{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+}
+
+.tabla_secundaria{
+    padding: 2%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table,
+tr,
+td,
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 10px;
+    margin: 7px;
+    margin-bottom: 30px;
+}
+.ultimo{
+    width: 70%;
+    height: auto;
+}
+.ultimo p {
+    font-size: 20px;
+    margin-bottom: 50px
+}
+.subtitulo_crear{
+    width: 100%;
+    height: auto;
+
+}
+.titulo_crear{
+    font-size: 40px;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.parrafo_1{
+    margin: 45px;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+.form_clase {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    background-color:  rgba(0, 0, 0, 0.486);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.h2_form{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+
+.form_clase > div{
+    margin-bottom: 15px;
+
+}
+input, textarea{
+    width: 98%; 
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    
+
+}
+label h3 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 1em;
+    color: #000000;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: rgb(0, 0, 0);
+    border-color:  #000000;
+    border-radius: 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 33%;
+    margin-bottom: 70px;
+    
+}
+label{
+    
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25%;
+}
+
+/* ESTILOS PARA MULTIMEDIA */
+.seccion-multimedia {
+    width: 100%;
+    padding: 40px 20px;
+    margin: 30px auto;
+}
+
+.seccion-multimedia h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.multimedia-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.imagen-section,
+.audio-section,
+.video-section {
+    background-color: #f9f9f9;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.imagen-section:hover,
+.audio-section:hover,
+.video-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-section h2,
+.audio-section h2,
+.video-section h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.imagen-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+audio, video {
+    width: 100%;
+    max-width: 400px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/* ESTILOS PARA FOOTER */
+.footer-main {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-top: 3px solid #333;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #ddd;
+}
+
+.footer-content address {
+    font-style: normal;
+    margin: 20px 0;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.footer-content address a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content address a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-date {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
